@@ -9,7 +9,7 @@ public class array_java {
 		ArrayList<String> alist = new ArrayList<>();
 		
 		//Adding values to the ArrayList
-		
+		//Zakir
 		alist.add("Apple");
 		alist.add("Boy");
 		alist.add("girl");
