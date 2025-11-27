@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.Implicit_wait">
+      <class name="automation.Java_Assignment">
         <methods>
           <include name="CreateDriver"/>
-          <include name="Withoutimplicitwaitexample"/>
+          <include name="alert"/>
         </methods>
-      </class> <!-- automation.Implicit_wait -->
+      </class> <!-- automation.Java_Assignment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
