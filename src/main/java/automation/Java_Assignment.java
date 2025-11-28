@@ -1,12 +1,22 @@
 package automation;
 
+import java.nio.file.Files;
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.StandardCopyOption;
+import java.time.Duration;
 import java.util.List;
+import java.util.logging.FileHandler;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
@@ -79,11 +89,48 @@ public class Java_Assignment {
 		{
 			System.out.println(link.getText()+"  "+ link.getAttribute("href"));
 		}
+			
+	}
+	
+	@Test
+	public void screenshot() throws IOException {
+		
+		driver.get("https://www.amazon.in/");
+		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		File dest = new File("homepage.png");
+		Files.copy(src.toPath(), dest.toPath(), StandardCopyOption.REPLACE_EXISTING);
+		System.out.println("Screenshot saved successfully!");
+
+	}
+	
+	@Test
+	public void multiplewindows() {
+		
+		driver.get("https://demoqa.com/browser-windows/");
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("//button[@id='windowButton']")).click();
+		String title = driver.getTitle();
+		System.out.println("Multiple Windows title is:" +title);
+		driver.close();
 		
 	}
 	
+	@Test
+	public void Explicitwait() {
+		driver.get("https://the-internet.herokuapp.com/dynamic_loading");
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("//a[text()='Example 1: Element on page that is hidden']")).click();
+		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[text()='Start']")));
+		driver.findElement(By.xpath("//button[text()='Start']")).click();
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+		
+	}
+	
+	}
+
+
 	
 
-}
+
 
 

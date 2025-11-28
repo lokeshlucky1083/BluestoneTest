@@ -6,6 +6,8 @@
       <class name="automation.Java_Assignment">
         <methods>
           <include name="CreateDriver"/>
+          <include name="multiplewindows"/>
+          <include name="closingbrowsers"/>
           <include name="alert"/>
         </methods>
       </class> <!-- automation.Java_Assignment -->
