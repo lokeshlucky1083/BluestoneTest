@@ -1,121 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-28T00:24:47 IST" name="Default suite" finished-at="2025-11-28T00:25:36 IST" duration-ms="48671">
+  <suite started-at="2025-12-03T10:01:11 IST" name="Default suite" finished-at="2025-12-03T10:01:21 IST" duration-ms="10090">
     <groups>
     </groups>
-    <test started-at="2025-11-28T00:24:47 IST" name="Default test" finished-at="2025-11-28T00:25:36 IST" duration-ms="48671">
-      <class name="automation.Java_Assignment">
-        <test-method is-config="true" signature="CreateDriver()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:24:47 IST" name="CreateDriver" finished-at="2025-11-28T00:24:48 IST" duration-ms="1537" status="PASS">
+    <test started-at="2025-12-03T10:01:11 IST" name="Default test" finished-at="2025-12-03T10:01:21 IST" duration-ms="10090">
+      <class name="automation.Search_Flipcart">
+        <test-method is-config="true" signature="run()[pri:0, instance:automation.Search_Flipcart@2e385cce]" started-at="2025-12-03T10:01:11 IST" name="run" finished-at="2025-12-03T10:01:13 IST" duration-ms="2223" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateDriver -->
-        <test-method signature="Explicitwait()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:24:48 IST" name="Explicitwait" finished-at="2025-11-28T00:24:52 IST" duration-ms="4011" status="PASS">
+        </test-method> <!-- run -->
+        <test-method signature="searchFlipkart()[pri:0, instance:automation.Search_Flipcart@2e385cce]" started-at="2025-12-03T10:01:13 IST" name="searchFlipkart" finished-at="2025-12-03T10:01:16 IST" duration-ms="2689" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Explicitwait -->
-        <test-method is-config="true" signature="closingbrowsers()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:24:52 IST" name="closingbrowsers" finished-at="2025-11-28T00:24:53 IST" duration-ms="215" status="PASS">
+        </test-method> <!-- searchFlipkart -->
+        <test-method is-config="true" signature="run()[pri:0, instance:automation.Search_Flipcart@2e385cce]" started-at="2025-12-03T10:01:16 IST" name="run" finished-at="2025-12-03T10:01:18 IST" duration-ms="2310" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closingbrowsers -->
-        <test-method is-config="true" signature="CreateDriver()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:24:53 IST" name="CreateDriver" finished-at="2025-11-28T00:24:54 IST" duration-ms="1021" status="PASS">
+        </test-method> <!-- run -->
+        <test-method signature="voiceFlipkart()[pri:0, instance:automation.Search_Flipcart@2e385cce]" started-at="2025-12-03T10:01:18 IST" name="voiceFlipkart" finished-at="2025-12-03T10:01:21 IST" duration-ms="2767" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateDriver -->
-        <test-method signature="alert()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:24:54 IST" name="alert" finished-at="2025-11-28T00:25:08 IST" duration-ms="14085" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- alert -->
-        <test-method is-config="true" signature="closingbrowsers()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:25:08 IST" name="closingbrowsers" finished-at="2025-11-28T00:25:08 IST" duration-ms="338" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingbrowsers -->
-        <test-method is-config="true" signature="CreateDriver()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:25:08 IST" name="CreateDriver" finished-at="2025-11-28T00:25:09 IST" duration-ms="942" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateDriver -->
-        <test-method signature="allelements()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:25:09 IST" name="allelements" finished-at="2025-11-28T00:25:15 IST" duration-ms="5771" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- allelements -->
-        <test-method is-config="true" signature="closingbrowsers()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:25:15 IST" name="closingbrowsers" finished-at="2025-11-28T00:25:15 IST" duration-ms="182" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingbrowsers -->
-        <test-method is-config="true" signature="CreateDriver()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:25:15 IST" name="CreateDriver" finished-at="2025-11-28T00:25:16 IST" duration-ms="913" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateDriver -->
-        <test-method signature="dropdown()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:25:16 IST" name="dropdown" finished-at="2025-11-28T00:25:19 IST" duration-ms="3195" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dropdown -->
-        <test-method is-config="true" signature="closingbrowsers()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:25:19 IST" name="closingbrowsers" finished-at="2025-11-28T00:25:19 IST" duration-ms="209" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingbrowsers -->
-        <test-method is-config="true" signature="CreateDriver()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:25:19 IST" name="CreateDriver" finished-at="2025-11-28T00:25:20 IST" duration-ms="874" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateDriver -->
-        <test-method signature="entertext()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:25:20 IST" name="entertext" finished-at="2025-11-28T00:25:21 IST" duration-ms="826" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- entertext -->
-        <test-method is-config="true" signature="closingbrowsers()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:25:21 IST" name="closingbrowsers" finished-at="2025-11-28T00:25:21 IST" duration-ms="252" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingbrowsers -->
-        <test-method is-config="true" signature="CreateDriver()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:25:21 IST" name="CreateDriver" finished-at="2025-11-28T00:25:22 IST" duration-ms="1009" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateDriver -->
-        <test-method signature="google()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:25:22 IST" name="google" finished-at="2025-11-28T00:25:23 IST" duration-ms="952" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- google -->
-        <test-method is-config="true" signature="closingbrowsers()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:25:23 IST" name="closingbrowsers" finished-at="2025-11-28T00:25:24 IST" duration-ms="306" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingbrowsers -->
-        <test-method is-config="true" signature="CreateDriver()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:25:24 IST" name="CreateDriver" finished-at="2025-11-28T00:25:25 IST" duration-ms="1014" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateDriver -->
-        <test-method signature="linktest()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:25:25 IST" name="linktest" finished-at="2025-11-28T00:25:26 IST" duration-ms="1728" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- linktest -->
-        <test-method is-config="true" signature="closingbrowsers()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:25:26 IST" name="closingbrowsers" finished-at="2025-11-28T00:25:27 IST" duration-ms="194" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingbrowsers -->
-        <test-method is-config="true" signature="CreateDriver()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:25:27 IST" name="CreateDriver" finished-at="2025-11-28T00:25:28 IST" duration-ms="976" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateDriver -->
-        <test-method signature="multiplewindows()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:25:28 IST" name="multiplewindows" finished-at="2025-11-28T00:25:32 IST" duration-ms="4254" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- multiplewindows -->
-        <test-method is-config="true" signature="closingbrowsers()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:25:32 IST" name="closingbrowsers" finished-at="2025-11-28T00:25:32 IST" duration-ms="278" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingbrowsers -->
-        <test-method is-config="true" signature="CreateDriver()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:25:32 IST" name="CreateDriver" finished-at="2025-11-28T00:25:33 IST" duration-ms="838" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateDriver -->
-        <test-method signature="screenshot()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:25:33 IST" name="screenshot" finished-at="2025-11-28T00:25:35 IST" duration-ms="2399" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenshot -->
-        <test-method is-config="true" signature="closingbrowsers()[pri:0, instance:automation.Java_Assignment@54c5a2ff]" started-at="2025-11-28T00:25:35 IST" name="closingbrowsers" finished-at="2025-11-28T00:25:36 IST" duration-ms="264" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingbrowsers -->
-      </class> <!-- automation.Java_Assignment -->
+        </test-method> <!-- voiceFlipkart -->
+      </class> <!-- automation.Search_Flipcart -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.Java_Assignment">
+      <class name="automation.Search_Flipcart">
         <methods>
-          <include name="CreateDriver"/>
-          <include name="multiplewindows"/>
-          <include name="closingbrowsers"/>
-          <include name="alert"/>
+          <include name="voiceFlipkart"/>
+          <include name="searchFlipkart"/>
+          <include name="run"/>
         </methods>
-      </class> <!-- automation.Java_Assignment -->
+      </class> <!-- automation.Search_Flipcart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
